@@ -8,12 +8,6 @@ socket.on ('disconnect', function () {
 });
 
 
-
-socket.emit ('createMessage', {
-  from: 'Kevin Rose',
-  text: 'Where is my whiskey?'
-})
-
 socket.on ('newMessage', function (message) {
   console.log (message);
 });
