@@ -6,8 +6,7 @@ const publicPath = path.join (__dirname, '../public');
 const express = require ('express');
 const socketIO = require ('socket.io');
 
-const {generateMessage, generateLocation
-  essage} = require ('./utils/message')
+const {generateMessage, generateLocationMessage} = require ('./utils/message')
 
 var app = express ();
 var server = http.createServer (app);
